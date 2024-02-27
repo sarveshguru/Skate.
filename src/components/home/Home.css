@@ -1,0 +1,28 @@
+.home-container {
+    position: relative;
+}
+
+.hero-section {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+
+.skatebg {
+    top: 100vh;
+    width: 100%;
+    height: 100vh;
+    position: sticky;
+    background-color: black;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.skatebg h2 {
+    font-size: 16em;
+    color: transparent;
+    -webkit-text-stroke: 2px #ffffff;
+}
